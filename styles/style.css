@@ -77,8 +77,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;/*32*/
+    width: 32px;
+    height: 32px;/*32*/
     border-radius: 50%;
     background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -164,6 +164,21 @@ color: #000;
         height: 25px;
         font-size: 16px;
     }
+    
+.icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;/*32*/
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s;
+}
 }
 /*main*/
 .space{
